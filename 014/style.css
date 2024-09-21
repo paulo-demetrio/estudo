@@ -1,0 +1,13 @@
+@charset "UFT-8";
+
+body {background-color: rgba(102, 241, 194, 0.711);}
+
+h1{color: rgba(128, 0, 0, 0.936);}
+
+p{font-family: 'Times New Roman', Times, serif; font-size: larger;}
+
+h2{font-size: 30px;color: rgba(239, 181, 35, 0.734);}
+
+h3{font-size: 30px;color: rgba(244, 185, 37, 0.783);}
+
+a {text-align: right;}

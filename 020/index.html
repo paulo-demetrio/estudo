@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divs, hover e > </title>
+    <style>
+
+body{background-image: linear-gradient(to left, rgb(64, 87, 204),rgb(223, 95, 95),rgb(71, 190, 71)); font-family: Arial, Helvetica, sans-serif;}
+
+#texto{background-color: rgb(91, 88, 83);color: rgb(0, 0, 0); width: 200px;
+margin: center;
+margin-left: 40%;
+border-radius: 10px;
+}
+
+div{background-color: aqua; color: rgb(0, 0, 0); 
+padding: 4px;
+border-radius:13px;
+text-align: center;
+margin-left: 4%;
+}
+
+.paragrafo{background-image: linear-gradient(to left, green,blue,red); width: 48em
+;color: white;
+margin-left: 13%;
+border-radius: 10px;
+padding: 10px;}
+
+.textmin{background-color: rgb(83, 65, 65); color: rgb(255, 255, 255); width: 398px; height: 17px
+; 
+
+padding: 7px;
+border-radius: 15px;
+text-align: center;}
+
+
+.escondido{background-color: rgb(45, 44, 44); color: honeydew; display: none; 
+width: 560px; height: 5;
+margin-left: 190px;
+margin-top: 10px;
+border-radius: 10px;
+padding:9px;}
+
+.pequenotexto{width: 166px;
+}
+
+div:hover > p  {display: block;}
+
+h3{color: rgb(0, 0, 0);
+}
+
+/* links abaixo */
+
+a{color: cornsilk; text-decoration: none;}
+.instagram:hover{color: rgb(255, 0, 238);}
+.youtube:hover{color: red;}
+.facebook:hover{color: blue;}
+a:hover{color: rgb(255, 0, 0);}
+
+.facebook::before{content: " 😜 ";}
+.youtube::before{content: " ❤ ";}
+.instagram::before{content: " 💋 ";}
+
+.facebook::after{content: " 😜 ";}
+.youtube::after{content: " ❤ ";}
+.instagram::after{content:  " 💋 ";}
+
+a:active {color: rgb(255, 0, 0);}
+a:visited {color: rgb(0, 0, 0);}
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1 id="texto">Texto abaixo</h1>
+    <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore totam pariatur rerum recusandae ut, deserunt fugiat nihil sapiente labore cupiditate temporibus quasi quod? Nesciunt quam corporis doloribus excepturi optio esse?</p>
+<div class="pequenotexto">passe o mouse a baixo</div><br>
+<div class="textmin">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        <p class="escondido">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam ratione corrupti, totam et architecto quisquam, consequatur dicta, animi corporis placeat sint. Commodi sunt inventore unde iure voluptas magnam sit ipsum! <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQNFwGywncWK85fGBbpLmcC6d6gcNfv6LFUg&usqp=CAU" alt=""></p>
+</div>
+
+<h3>temos links abaixo</h3>
+<ul>
+    
+    <li><a href="http://youtube.com" target="_blank" class="youtube">youtube</a><br></li>
+    <li><a href="http://facebook.com" target="_blank" class="facebook">facebook</a><br></li>  <li> <a href="http://intagram.com" target="_blank" class="instagram">instagram</a><br></li>
+</ul>
+
+
+</body>
+</html>
